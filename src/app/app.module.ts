@@ -10,6 +10,8 @@ import { ContactComponent } from './pages/contact/contact.component';
 import { HeadermainComponent } from './components/headermain/headermain.component';
 import { MainHomeComponent } from './components/main-home/main-home.component';
 import { MainguitarsComponent } from './components/mainguitars/mainguitars.component';
+import { MainBassComponent } from './components/main-bass/main-bass.component';
+import { MainContactComponent } from './components/main-contact/main-contact.component';
 
 const appRoutes:Routes=[
   {path:"" ,component:HomeComponent},
@@ -27,7 +29,9 @@ const appRoutes:Routes=[
     ContactComponent,
     HeadermainComponent,
     MainHomeComponent,
-    MainguitarsComponent
+    MainguitarsComponent,
+    MainBassComponent,
+    MainContactComponent
   ],
   imports: [
     BrowserModule,
